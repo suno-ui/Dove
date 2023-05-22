@@ -1,10 +1,5 @@
 print("Validating Services..")
 
-if (getgenv().Dove) then
-    return warn("Dove is already running, please close your Roblox instance, and try again.")
-end
-getgenv().Dove = true
-
 local whitelistedUsers = loadstring(game:HttpGet("https://raw.githubusercontent.com/suno-ui/Dove/main/Roles.lua", true))()
 
 print("Verifying User..")
