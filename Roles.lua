@@ -1,10 +1,3 @@
-local developerAccounts = {
-    4637826117,
-    3805519155,
-}
+local whitelistedUsers = {4637826117}
 
-local whitelistedUsers = {
-
-}
-
-return developerAccounts, whitelistedUsers
+return whitelistedUsers
